@@ -4,7 +4,7 @@ import math
 def linear_selection(a, k):
     if len(a) == 1:
         return a[0]
-    M = steps_1_2(a)
+    M = get_medians_list(a)
     print("M", M, "ceil", math.ceil(len(M) / 2))
     median = linear_selection(M, math.ceil(len(M) / 2))
     print("median", median)
@@ -20,21 +20,17 @@ def linear_selection(a, k):
         print("Mediana final", median)
         return median
     if len(L) > k - 1:
-        print("segundo if", len(L), len(R), L, R, k)
+        print("segundo if", len(L), len(R), L, R, k, median)
         return linear_selection(L, k)
     if len(L) < k - 1:
-        print("terceiro if", len(L), len(R), L, R, k)
-        return linear_selection(R, k - len(L) - 1)
+        print("terceiro if", len(L), len(R), L, R, k, median)
+        return linear_selection(R, k - len(L))
 
 
-def temp_median(a):
-    a.sort()
-    return a[len(a) // 2]
-
-
-def steps_1_2(a):
+def get_medians_list(a):
     if len(a) < 5:
-        return a
+        a.sort()
+        return [a[len(a) // 2]]
     lists = []
     j = 0
     for i in range(0, len(a) // 5):
@@ -50,7 +46,6 @@ def steps_1_2(a):
         print(lists[i][len(lists[i]) // 2])
 
     print(medians_list)
-    # return steps_1_2(medians_list)
     return medians_list
 
 
@@ -65,7 +60,7 @@ def steps_1_2(a):
 # print(vet)
 
 
-vet = [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+vet = [1, 2, 2, 3, 4, 5]
 print(linear_selection(vet, math.ceil(len(vet) / 2)))
 vet.sort()
 print(vet)
