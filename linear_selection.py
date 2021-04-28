@@ -3,8 +3,11 @@ import math
 
 def linear_selection(a, k):
     if len(a) == 1:
-        return a
-    median = temp_median(a)  # TODO Trocar para algoritmo da mediana das medianas
+        return a[0]
+    M = steps_1_2(a)
+    print("M", M, "ceil", math.ceil(len(M) / 2))
+    median = linear_selection(M, math.ceil(len(M) / 2))
+    print("median", median)
     L = []
     R = []
     for item in a:
@@ -21,7 +24,7 @@ def linear_selection(a, k):
         return linear_selection(L, k)
     if len(L) < k - 1:
         print("terceiro if", len(L), len(R), L, R, k)
-        return linear_selection(R, k - len(L))
+        return linear_selection(R, k - len(L) - 1)
 
 
 def temp_median(a):
@@ -29,9 +32,9 @@ def temp_median(a):
     return a[len(a) // 2]
 
 
-def mom(a, k):
+def steps_1_2(a):
     if len(a) < 5:
-        return a[k]
+        return a
     lists = []
     j = 0
     for i in range(0, len(a) // 5):
@@ -47,31 +50,8 @@ def mom(a, k):
         print(lists[i][len(lists[i]) // 2])
 
     print(medians_list)
-    return mom(medians_list, len(medians_list) // 2)
-
-
-def median_of_medians(a, k):
-    if len(a) <= 5:
-        print("A menor igual que 5", a, k)
-        return a[k]
-    m = mom(a, k)
-    print("A", a, "k", k, "mom", m)
-    L = []
-    R = []
-    for item in a:
-        if item < m:
-            L.append(item)
-        else:
-            R.append(item)
-    if len(L) == k - 1:
-        print("Mediana final", m)
-        return m
-    if len(L) > k - 1:
-        print("segundo if", len(L), len(R), L, R, k)
-        return median_of_medians(L, k)
-    if len(L) < k - 1:
-        print("terceiro if", len(L), len(R), L, R, k)
-        return median_of_medians(R, k - len(L) - 1)
+    # return steps_1_2(medians_list)
+    return medians_list
 
 
 # vet = [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
@@ -85,7 +65,7 @@ def median_of_medians(a, k):
 # print(vet)
 
 
-vet = [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+vet = [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 print(linear_selection(vet, math.ceil(len(vet) / 2)))
 vet.sort()
 print(vet)
