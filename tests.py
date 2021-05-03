@@ -4,32 +4,43 @@ import time
 from linear_selection import linear_selection
 from sort_selection import sort_selection
 
-
 n = 1000
 step = 1000
-max = 10000
-
+_max = 10000
 vets = []
-for i in range(10):
-    while n <= max:
+n_vets = 10
+j = 0
+linear_selection_times = []
+sort_selection_times = []
+
+while n <= _max:
+    for i in range(n_vets):
         vet = []
         while len(vet) < n:
             num = random.randint(1, 100000)
-            if num not in vet:
-                vet.append(num)
-        vets.append(vet)
-        n += step
+            vet.append(num)
+        k = len(vet) // 2
+        start_time = time.time()
+        linear = linear_selection(vet, k)
+        linear_selection_times.append((time.time() - start_time))
+        start_time = time.time()
+        sort = sort_selection(vet, k)
+        sort_selection_times.append((time.time() - start_time))
+        vet.sort()
+        if linear != sort:
+            print(f"Erro! Resultados do vetor {i + 1} de tamanho {len(vet)} com k = {k} -> "
+                  f"Linear Selection: {linear} - Sort Selection: {sort} - Manual: {vet[k - 1]}.")
+        else:
+            print(f"OK! Resultados do vetor {i + 1} de tamanho {len(vet)} com k = {k} -> "
+                  f"Linear Selection: {linear} - Sort Selection: {sort} - Manual: {vet[k - 1]}.")
+    n += step
 
-l_times = []
-s_times = []
-for vet in vets:
-    start_time = time.time()
-    linear = linear_selection(vet, len(vet) // 2)
-    l_times.append((time.time() - start_time))
-    start_time = time.time()
-    sort = sort_selection(vet, len(vet) // 2)
-    s_times.append((time.time() - start_time))
-    if linear != sort:
-        # raise Exception("ERRÔ!", len(vet), vet)
-        print("ERRÔ!", len(vet), vet)
-    print("linear == sort ?", linear, sort, linear == sort)
+for i in range(n_vets):
+    linear_selection_average = sum(linear_selection_times[j:j + n_vets]) / n_vets
+    sort_selection_average = sum(sort_selection_times[j:j + n_vets]) / n_vets
+    print(f"\nMédias de tempo de execução entre {n_vets} vetores de tamanho {(i + 1) * step}: "
+          f"\n  - Linear Selection: {linear_selection_average} segundos "
+          f"\n  - Sort Selection: {sort_selection_average} segundos."
+          f"\n  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: "
+          f"{sort_selection_average - linear_selection_average} segundos.")
+    j += n_vets

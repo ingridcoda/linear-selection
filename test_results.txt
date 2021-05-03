@@ -1,0 +1,150 @@
+OK! Resultados do vetor 1 de tamanho 1000 com k = 500 -> Linear Selection: 53506 - Sort Selection: 53506 - Manual: 53506.
+OK! Resultados do vetor 2 de tamanho 1000 com k = 500 -> Linear Selection: 50037 - Sort Selection: 50037 - Manual: 50037.
+OK! Resultados do vetor 3 de tamanho 1000 com k = 500 -> Linear Selection: 49684 - Sort Selection: 49684 - Manual: 49684.
+OK! Resultados do vetor 4 de tamanho 1000 com k = 500 -> Linear Selection: 49664 - Sort Selection: 49664 - Manual: 49664.
+OK! Resultados do vetor 5 de tamanho 1000 com k = 500 -> Linear Selection: 50234 - Sort Selection: 50234 - Manual: 50234.
+OK! Resultados do vetor 6 de tamanho 1000 com k = 500 -> Linear Selection: 49205 - Sort Selection: 49205 - Manual: 49205.
+OK! Resultados do vetor 7 de tamanho 1000 com k = 500 -> Linear Selection: 48501 - Sort Selection: 48501 - Manual: 48501.
+OK! Resultados do vetor 8 de tamanho 1000 com k = 500 -> Linear Selection: 50967 - Sort Selection: 50967 - Manual: 50967.
+OK! Resultados do vetor 9 de tamanho 1000 com k = 500 -> Linear Selection: 50912 - Sort Selection: 50912 - Manual: 50912.
+OK! Resultados do vetor 10 de tamanho 1000 com k = 500 -> Linear Selection: 48376 - Sort Selection: 48376 - Manual: 48376.
+OK! Resultados do vetor 1 de tamanho 2000 com k = 1000 -> Linear Selection: 51222 - Sort Selection: 51222 - Manual: 51222.
+OK! Resultados do vetor 2 de tamanho 2000 com k = 1000 -> Linear Selection: 49674 - Sort Selection: 49674 - Manual: 49674.
+OK! Resultados do vetor 3 de tamanho 2000 com k = 1000 -> Linear Selection: 50454 - Sort Selection: 50454 - Manual: 50454.
+OK! Resultados do vetor 4 de tamanho 2000 com k = 1000 -> Linear Selection: 49422 - Sort Selection: 49422 - Manual: 49422.
+OK! Resultados do vetor 5 de tamanho 2000 com k = 1000 -> Linear Selection: 48745 - Sort Selection: 48745 - Manual: 48745.
+OK! Resultados do vetor 6 de tamanho 2000 com k = 1000 -> Linear Selection: 48965 - Sort Selection: 48965 - Manual: 48965.
+OK! Resultados do vetor 7 de tamanho 2000 com k = 1000 -> Linear Selection: 51178 - Sort Selection: 51178 - Manual: 51178.
+OK! Resultados do vetor 8 de tamanho 2000 com k = 1000 -> Linear Selection: 49595 - Sort Selection: 49595 - Manual: 49595.
+OK! Resultados do vetor 9 de tamanho 2000 com k = 1000 -> Linear Selection: 50646 - Sort Selection: 50646 - Manual: 50646.
+OK! Resultados do vetor 10 de tamanho 2000 com k = 1000 -> Linear Selection: 49343 - Sort Selection: 49343 - Manual: 49343.
+OK! Resultados do vetor 1 de tamanho 3000 com k = 1500 -> Linear Selection: 48489 - Sort Selection: 48489 - Manual: 48489.
+OK! Resultados do vetor 2 de tamanho 3000 com k = 1500 -> Linear Selection: 50048 - Sort Selection: 50048 - Manual: 50048.
+OK! Resultados do vetor 3 de tamanho 3000 com k = 1500 -> Linear Selection: 49231 - Sort Selection: 49231 - Manual: 49231.
+OK! Resultados do vetor 4 de tamanho 3000 com k = 1500 -> Linear Selection: 50506 - Sort Selection: 50506 - Manual: 50506.
+OK! Resultados do vetor 5 de tamanho 3000 com k = 1500 -> Linear Selection: 47945 - Sort Selection: 47945 - Manual: 47945.
+OK! Resultados do vetor 6 de tamanho 3000 com k = 1500 -> Linear Selection: 50419 - Sort Selection: 50419 - Manual: 50419.
+OK! Resultados do vetor 7 de tamanho 3000 com k = 1500 -> Linear Selection: 50565 - Sort Selection: 50565 - Manual: 50565.
+OK! Resultados do vetor 8 de tamanho 3000 com k = 1500 -> Linear Selection: 49990 - Sort Selection: 49990 - Manual: 49990.
+OK! Resultados do vetor 9 de tamanho 3000 com k = 1500 -> Linear Selection: 50001 - Sort Selection: 50001 - Manual: 50001.
+OK! Resultados do vetor 10 de tamanho 3000 com k = 1500 -> Linear Selection: 48518 - Sort Selection: 48518 - Manual: 48518.
+OK! Resultados do vetor 1 de tamanho 4000 com k = 2000 -> Linear Selection: 49854 - Sort Selection: 49854 - Manual: 49854.
+OK! Resultados do vetor 2 de tamanho 4000 com k = 2000 -> Linear Selection: 49293 - Sort Selection: 49293 - Manual: 49293.
+OK! Resultados do vetor 3 de tamanho 4000 com k = 2000 -> Linear Selection: 50266 - Sort Selection: 50266 - Manual: 50266.
+OK! Resultados do vetor 4 de tamanho 4000 com k = 2000 -> Linear Selection: 51013 - Sort Selection: 51013 - Manual: 51013.
+OK! Resultados do vetor 5 de tamanho 4000 com k = 2000 -> Linear Selection: 51886 - Sort Selection: 51886 - Manual: 51886.
+OK! Resultados do vetor 6 de tamanho 4000 com k = 2000 -> Linear Selection: 48414 - Sort Selection: 48414 - Manual: 48414.
+OK! Resultados do vetor 7 de tamanho 4000 com k = 2000 -> Linear Selection: 48091 - Sort Selection: 48091 - Manual: 48091.
+OK! Resultados do vetor 8 de tamanho 4000 com k = 2000 -> Linear Selection: 49235 - Sort Selection: 49235 - Manual: 49235.
+OK! Resultados do vetor 9 de tamanho 4000 com k = 2000 -> Linear Selection: 49252 - Sort Selection: 49252 - Manual: 49252.
+OK! Resultados do vetor 10 de tamanho 4000 com k = 2000 -> Linear Selection: 49222 - Sort Selection: 49222 - Manual: 49222.
+OK! Resultados do vetor 1 de tamanho 5000 com k = 2500 -> Linear Selection: 49884 - Sort Selection: 49884 - Manual: 49884.
+OK! Resultados do vetor 2 de tamanho 5000 com k = 2500 -> Linear Selection: 50296 - Sort Selection: 50296 - Manual: 50296.
+OK! Resultados do vetor 3 de tamanho 5000 com k = 2500 -> Linear Selection: 49856 - Sort Selection: 49856 - Manual: 49856.
+OK! Resultados do vetor 4 de tamanho 5000 com k = 2500 -> Linear Selection: 49812 - Sort Selection: 49812 - Manual: 49812.
+OK! Resultados do vetor 5 de tamanho 5000 com k = 2500 -> Linear Selection: 49649 - Sort Selection: 49649 - Manual: 49649.
+OK! Resultados do vetor 6 de tamanho 5000 com k = 2500 -> Linear Selection: 50882 - Sort Selection: 50882 - Manual: 50882.
+OK! Resultados do vetor 7 de tamanho 5000 com k = 2500 -> Linear Selection: 49877 - Sort Selection: 49877 - Manual: 49877.
+OK! Resultados do vetor 8 de tamanho 5000 com k = 2500 -> Linear Selection: 50944 - Sort Selection: 50944 - Manual: 50944.
+OK! Resultados do vetor 9 de tamanho 5000 com k = 2500 -> Linear Selection: 50250 - Sort Selection: 50250 - Manual: 50250.
+OK! Resultados do vetor 10 de tamanho 5000 com k = 2500 -> Linear Selection: 49690 - Sort Selection: 49690 - Manual: 49690.
+OK! Resultados do vetor 1 de tamanho 6000 com k = 3000 -> Linear Selection: 49944 - Sort Selection: 49944 - Manual: 49944.
+OK! Resultados do vetor 2 de tamanho 6000 com k = 3000 -> Linear Selection: 49491 - Sort Selection: 49491 - Manual: 49491.
+OK! Resultados do vetor 3 de tamanho 6000 com k = 3000 -> Linear Selection: 50093 - Sort Selection: 50093 - Manual: 50093.
+OK! Resultados do vetor 4 de tamanho 6000 com k = 3000 -> Linear Selection: 50165 - Sort Selection: 50165 - Manual: 50165.
+OK! Resultados do vetor 5 de tamanho 6000 com k = 3000 -> Linear Selection: 50865 - Sort Selection: 50865 - Manual: 50865.
+OK! Resultados do vetor 6 de tamanho 6000 com k = 3000 -> Linear Selection: 51921 - Sort Selection: 51921 - Manual: 51921.
+OK! Resultados do vetor 7 de tamanho 6000 com k = 3000 -> Linear Selection: 49508 - Sort Selection: 49508 - Manual: 49508.
+OK! Resultados do vetor 8 de tamanho 6000 com k = 3000 -> Linear Selection: 49978 - Sort Selection: 49978 - Manual: 49978.
+OK! Resultados do vetor 9 de tamanho 6000 com k = 3000 -> Linear Selection: 50214 - Sort Selection: 50214 - Manual: 50214.
+OK! Resultados do vetor 10 de tamanho 6000 com k = 3000 -> Linear Selection: 48916 - Sort Selection: 48916 - Manual: 48916.
+OK! Resultados do vetor 1 de tamanho 7000 com k = 3500 -> Linear Selection: 49845 - Sort Selection: 49845 - Manual: 49845.
+OK! Resultados do vetor 2 de tamanho 7000 com k = 3500 -> Linear Selection: 50455 - Sort Selection: 50455 - Manual: 50455.
+OK! Resultados do vetor 3 de tamanho 7000 com k = 3500 -> Linear Selection: 50181 - Sort Selection: 50181 - Manual: 50181.
+OK! Resultados do vetor 4 de tamanho 7000 com k = 3500 -> Linear Selection: 49683 - Sort Selection: 49683 - Manual: 49683.
+OK! Resultados do vetor 5 de tamanho 7000 com k = 3500 -> Linear Selection: 49090 - Sort Selection: 49090 - Manual: 49090.
+OK! Resultados do vetor 6 de tamanho 7000 com k = 3500 -> Linear Selection: 48357 - Sort Selection: 48357 - Manual: 48357.
+OK! Resultados do vetor 7 de tamanho 7000 com k = 3500 -> Linear Selection: 48905 - Sort Selection: 48905 - Manual: 48905.
+OK! Resultados do vetor 8 de tamanho 7000 com k = 3500 -> Linear Selection: 51053 - Sort Selection: 51053 - Manual: 51053.
+OK! Resultados do vetor 9 de tamanho 7000 com k = 3500 -> Linear Selection: 50714 - Sort Selection: 50714 - Manual: 50714.
+OK! Resultados do vetor 10 de tamanho 7000 com k = 3500 -> Linear Selection: 50327 - Sort Selection: 50327 - Manual: 50327.
+OK! Resultados do vetor 1 de tamanho 8000 com k = 4000 -> Linear Selection: 49647 - Sort Selection: 49647 - Manual: 49647.
+OK! Resultados do vetor 2 de tamanho 8000 com k = 4000 -> Linear Selection: 49658 - Sort Selection: 49658 - Manual: 49658.
+OK! Resultados do vetor 3 de tamanho 8000 com k = 4000 -> Linear Selection: 50315 - Sort Selection: 50315 - Manual: 50315.
+OK! Resultados do vetor 4 de tamanho 8000 com k = 4000 -> Linear Selection: 50480 - Sort Selection: 50480 - Manual: 50480.
+OK! Resultados do vetor 5 de tamanho 8000 com k = 4000 -> Linear Selection: 49463 - Sort Selection: 49463 - Manual: 49463.
+OK! Resultados do vetor 6 de tamanho 8000 com k = 4000 -> Linear Selection: 50455 - Sort Selection: 50455 - Manual: 50455.
+OK! Resultados do vetor 7 de tamanho 8000 com k = 4000 -> Linear Selection: 50582 - Sort Selection: 50582 - Manual: 50582.
+OK! Resultados do vetor 8 de tamanho 8000 com k = 4000 -> Linear Selection: 50619 - Sort Selection: 50619 - Manual: 50619.
+OK! Resultados do vetor 9 de tamanho 8000 com k = 4000 -> Linear Selection: 50268 - Sort Selection: 50268 - Manual: 50268.
+OK! Resultados do vetor 10 de tamanho 8000 com k = 4000 -> Linear Selection: 50299 - Sort Selection: 50299 - Manual: 50299.
+OK! Resultados do vetor 1 de tamanho 9000 com k = 4500 -> Linear Selection: 50391 - Sort Selection: 50391 - Manual: 50391.
+OK! Resultados do vetor 2 de tamanho 9000 com k = 4500 -> Linear Selection: 49413 - Sort Selection: 49413 - Manual: 49413.
+OK! Resultados do vetor 3 de tamanho 9000 com k = 4500 -> Linear Selection: 50027 - Sort Selection: 50027 - Manual: 50027.
+OK! Resultados do vetor 4 de tamanho 9000 com k = 4500 -> Linear Selection: 50196 - Sort Selection: 50196 - Manual: 50196.
+OK! Resultados do vetor 5 de tamanho 9000 com k = 4500 -> Linear Selection: 50298 - Sort Selection: 50298 - Manual: 50298.
+OK! Resultados do vetor 6 de tamanho 9000 com k = 4500 -> Linear Selection: 50122 - Sort Selection: 50122 - Manual: 50122.
+OK! Resultados do vetor 7 de tamanho 9000 com k = 4500 -> Linear Selection: 50830 - Sort Selection: 50830 - Manual: 50830.
+OK! Resultados do vetor 8 de tamanho 9000 com k = 4500 -> Linear Selection: 49670 - Sort Selection: 49670 - Manual: 49670.
+OK! Resultados do vetor 9 de tamanho 9000 com k = 4500 -> Linear Selection: 49470 - Sort Selection: 49470 - Manual: 49470.
+OK! Resultados do vetor 10 de tamanho 9000 com k = 4500 -> Linear Selection: 49822 - Sort Selection: 49822 - Manual: 49822.
+OK! Resultados do vetor 1 de tamanho 10000 com k = 5000 -> Linear Selection: 50421 - Sort Selection: 50421 - Manual: 50421.
+OK! Resultados do vetor 2 de tamanho 10000 com k = 5000 -> Linear Selection: 49930 - Sort Selection: 49930 - Manual: 49930.
+OK! Resultados do vetor 3 de tamanho 10000 com k = 5000 -> Linear Selection: 50182 - Sort Selection: 50182 - Manual: 50182.
+OK! Resultados do vetor 4 de tamanho 10000 com k = 5000 -> Linear Selection: 48869 - Sort Selection: 48869 - Manual: 48869.
+OK! Resultados do vetor 5 de tamanho 10000 com k = 5000 -> Linear Selection: 49726 - Sort Selection: 49726 - Manual: 49726.
+OK! Resultados do vetor 6 de tamanho 10000 com k = 5000 -> Linear Selection: 50283 - Sort Selection: 50283 - Manual: 50283.
+OK! Resultados do vetor 7 de tamanho 10000 com k = 5000 -> Linear Selection: 50533 - Sort Selection: 50533 - Manual: 50533.
+OK! Resultados do vetor 8 de tamanho 10000 com k = 5000 -> Linear Selection: 49480 - Sort Selection: 49480 - Manual: 49480.
+OK! Resultados do vetor 9 de tamanho 10000 com k = 5000 -> Linear Selection: 50093 - Sort Selection: 50093 - Manual: 50093.
+OK! Resultados do vetor 10 de tamanho 10000 com k = 5000 -> Linear Selection: 49595 - Sort Selection: 49595 - Manual: 49595.
+
+Médias de tempo de execução entre 10 vetores de tamanho 1000:
+  - Linear Selection: 0.000796818733215332 segundos
+  - Sort Selection: 0.06775407791137696 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 0.06695725917816163 segundos.
+
+Médias de tempo de execução entre 10 vetores de tamanho 2000:
+  - Linear Selection: 0.0012885332107543945 segundos
+  - Sort Selection: 0.28429126739501953 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 0.28300273418426514 segundos.
+
+Médias de tempo de execução entre 10 vetores de tamanho 3000:
+  - Linear Selection: 0.0020108699798583986 segundos
+  - Sort Selection: 0.565547776222229 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 0.5635369062423705 segundos.
+
+Médias de tempo de execução entre 10 vetores de tamanho 4000:
+  - Linear Selection: 0.0025273561477661133 segundos
+  - Sort Selection: 1.0078089475631713 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 1.0052815914154052 segundos.
+
+Médias de tempo de execução entre 10 vetores de tamanho 5000:
+  - Linear Selection: 0.0028450727462768556 segundos
+  - Sort Selection: 1.571148419380188 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 1.5683033466339111 segundos.
+
+Médias de tempo de execução entre 10 vetores de tamanho 6000:
+  - Linear Selection: 0.0034310579299926757 segundos
+  - Sort Selection: 2.313816452026367 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 2.3103853940963743 segundos.
+
+Médias de tempo de execução entre 10 vetores de tamanho 7000:
+  - Linear Selection: 0.004050612449645996 segundos
+  - Sort Selection: 3.2134814500808715 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 3.2094308376312255 segundos.
+
+Médias de tempo de execução entre 10 vetores de tamanho 8000:
+  - Linear Selection: 0.00498812198638916 segundos
+  - Sort Selection: 4.12491991519928 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 4.119931793212891 segundos.
+
+Médias de tempo de execução entre 10 vetores de tamanho 9000:
+  - Linear Selection: 0.005765700340270996 segundos
+  - Sort Selection: 5.653693509101868 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 5.6479278087615965 segundos.
+
+Médias de tempo de execução entre 10 vetores de tamanho 10000:
+  - Linear Selection: 0.006642055511474609 segundos
+  - Sort Selection: 6.529818677902222 segundos.
+  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: 6.523176622390747 segundos.
