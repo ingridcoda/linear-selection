@@ -13,6 +13,8 @@ j = 0
 linear_selection_times = []
 sort_selection_times = []
 
+print("Iniciando execução...\n")
+
 while n <= _max:
     for i in range(n_vets):
         vet = []
@@ -29,18 +31,20 @@ while n <= _max:
         vet.sort()
         if linear != sort:
             print(f"Erro! Resultados do vetor {i + 1} de tamanho {len(vet)} com k = {k} -> "
-                  f"Linear Selection: {linear} - Sort Selection: {sort} - Manual: {vet[k - 1]}.")
+                  f"Linear Selection: {linear} - Sort Selection: {sort} - Manual: {vet[k - 1]}")
         else:
             print(f"OK! Resultados do vetor {i + 1} de tamanho {len(vet)} com k = {k} -> "
-                  f"Linear Selection: {linear} - Sort Selection: {sort} - Manual: {vet[k - 1]}.")
+                  f"Linear Selection: {linear} - Sort Selection: {sort} - Manual: {vet[k - 1]}")
     n += step
 
 for i in range(n_vets):
     linear_selection_average = sum(linear_selection_times[j:j + n_vets]) / n_vets
     sort_selection_average = sum(sort_selection_times[j:j + n_vets]) / n_vets
     print(f"\nMédias de tempo de execução entre {n_vets} vetores de tamanho {(i + 1) * step}: "
-          f"\n  - Linear Selection: {linear_selection_average} segundos "
-          f"\n  - Sort Selection: {sort_selection_average} segundos."
+          f"\n  - Linear Selection: {linear_selection_average} segundos"
+          f"\n  - Sort Selection: {sort_selection_average} segundos"
           f"\n  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: "
-          f"{sort_selection_average - linear_selection_average} segundos.")
+          f"{sort_selection_average - linear_selection_average} segundos")
     j += n_vets
+
+print("\nFim da execução!")
