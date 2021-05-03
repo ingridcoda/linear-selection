@@ -8,57 +8,39 @@ n = 1000
 step = 1000
 _max = 10000
 vets = []
+n_vets = 10
+j = 0
+linear_selection_times = []
+sort_selection_times = []
 
-print("Populando vetores...")
 while n <= _max:
-    for i in range(10):
+    for i in range(n_vets):
         vet = []
         while len(vet) < n:
             num = random.randint(1, 100000)
-            if num not in vet:
-                vet.append(num)
-        vets.append(vet)
-    n += step
-print("Vetores populados.")
-
-l_times = []
-s_times = []
-count = 0
-countByLen = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-countLinearErrorsByLen = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-countSortErrorsByLen = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-for vet in vets:
-    start_time = time.time()
-    linear = linear_selection(vet, len(vet) // 2)
-    l_times.append((time.time() - start_time))
-    start_time = time.time()
-    sort = sort_selection(vet, len(vet) // 2)
-    s_times.append((time.time() - start_time))
-
-    if linear != sort:
+            vet.append(num)
+        k = len(vet) // 2
+        start_time = time.time()
+        linear = linear_selection(vet, k)
+        linear_selection_times.append((time.time() - start_time))
+        start_time = time.time()
+        sort = sort_selection(vet, k)
+        sort_selection_times.append((time.time() - start_time))
         vet.sort()
-        print("ERRÔ!", len(vet), "linear == sort ?", linear, sort, linear == sort,
-              vet[len(vet) // 2], linear == vet[len(vet) // 2], sort == vet[len(vet) // 2])
-        count += 1
-        countByLen[(len(vet) // 1000) - 1] += 1
-        if linear != vet[len(vet) // 2]:
-            countLinearErrorsByLen[(len(vet) // 1000) - 1] += 1
-        if sort != vet[len(vet) // 2]:
-            countSortErrorsByLen[(len(vet) // 1000) - 1] += 1
-    else:
-        print(len(vet), "linear == sort ?", linear, sort, linear == sort)
+        if linear != sort:
+            print(f"Erro! Resultados do vetor {i + 1} de tamanho {len(vet)} com k = {k} -> "
+                  f"Linear Selection: {linear} - Sort Selection: {sort} - Manual: {vet[k - 1]}.")
+        else:
+            print(f"OK! Resultados do vetor {i + 1} de tamanho {len(vet)} com k = {k} -> "
+                  f"Linear Selection: {linear} - Sort Selection: {sort} - Manual: {vet[k - 1]}.")
+    n += step
 
-averagesLinearByLen = []
-averagesSortByLen = []
-j = 0
-for i in range(10):
-    averagesLinearByLen.append(sum(l_times[j:j + 10]) / 10)
-    averagesSortByLen.append(sum(s_times[j:j + 10]) / 10)
-    j += 10
-
-print("Total diferentes:", count)
-print("Total diferentes por tam:", countByLen)
-print("Total diferentes linear por tam:", countLinearErrorsByLen)
-print("Total diferentes sort por tam:", countSortErrorsByLen)
-print("Medias linear por tam:", averagesLinearByLen)
-print("Medias sort por tam:", averagesSortByLen)
+for i in range(n_vets):
+    linear_selection_average = sum(linear_selection_times[j:j + n_vets]) / n_vets
+    sort_selection_average = sum(sort_selection_times[j:j + n_vets]) / n_vets
+    print(f"\nMédias de tempo de execução entre {n_vets} vetores de tamanho {(i + 1) * step}: "
+          f"\n  - Linear Selection: {linear_selection_average} segundos "
+          f"\n  - Sort Selection: {sort_selection_average} segundos."
+          f"\n  - Tempo economizado ao utilizar Linear Selection ao invés do Sort selection: "
+          f"{sort_selection_average - linear_selection_average} segundos.")
+    j += n_vets

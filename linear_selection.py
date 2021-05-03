@@ -15,11 +15,9 @@ def linear_selection(a, k):
         else:
             R.append(item)
 
-    if len(L) == k - 1:
-        return median
-    if len(L) > k - 1:
+    if len(L) >= k:
         return linear_selection(L, k)
-    if len(L) < k - 1:
+    if len(L) < k:
         return linear_selection(R, k - len(L))
 
 
